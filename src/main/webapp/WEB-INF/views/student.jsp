@@ -24,36 +24,36 @@
     <table>
         <tr>
             <td><form:label path="name">
-                <spring:message code="label.firstname" />
+                <spring:message code="label.name" />
             </form:label></td>
             <td><form:input path="name" /></td>
         </tr>
         <tr>
             <td><form:label path="surname">
-                <spring:message code="label.lastname" />
+                <spring:message code="label.surname" />
             </form:label></td>
             <td><form:input path="surname" /></td>
         </tr>
         <tr>
             <td><form:label path="studGroup">
-                <spring:message code="label.email" />
+                <spring:message code="label.studGroup" />
             </form:label></td>
             <td><form:input path="studGroup" /></td>
         </tr>
         <tr>
             <td colspan="2"><input type="submit"
-                                   value="<spring:message code="label.addcontact"/>" /></td>
+                                   value="<spring:message code="label.addStudent"/>" /></td>
         </tr>
     </table>
 </form:form>
 
-<h3><spring:message code="label.contacts" /></h3>
+<h3><spring:message code="label.students" /></h3>
 <c:if test="${!empty studentList}">
     <table class="data">
         <tr>
-            <th><spring:message code="label.firstname" /></th>
-            <th><spring:message code="label.email" /></th>
-            <th><spring:message code="label.telephone" /></th>
+            <th><spring:message code="label.name" /></th>
+            <th><spring:message code="label.surname" /></th>
+            <th><spring:message code="label.studGroup" /></th>
             <th>&nbsp;</th>
         </tr>
         <c:forEach items="${studentList}" var="student">

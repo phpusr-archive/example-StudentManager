@@ -11,7 +11,7 @@
 
 
 <a href="<c:url value="/index" />">
-    <spring:message code="label.contacts" />
+    <spring:message code="label.students" />
 </a><br/>
 
 <c:if test="${not empty param.error}">
