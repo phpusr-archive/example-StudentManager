@@ -28,6 +28,12 @@ public class Student {
     public Student() {
     }
 
+    public Student(String name, String surname, String studGroup) {
+        this.name = name;
+        this.surname = surname;
+        this.studGroup = studGroup;
+    }
+
     public Integer getId() {
         return id;
     }
