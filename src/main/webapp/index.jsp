@@ -1,4 +1,4 @@
-<%@ page import="org.dyndns.phpusr.contactmanager.service.Constants" %>
+<%@ page import="org.dyndns.phpusr.contactmanager.util.Constants" %>
 <%--
   Created by IntelliJ IDEA.
   User: phpusr

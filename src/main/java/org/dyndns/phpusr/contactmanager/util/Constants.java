@@ -1,4 +1,4 @@
-package org.dyndns.phpusr.contactmanager.service;
+package org.dyndns.phpusr.contactmanager.util;
 
 import org.springframework.stereotype.Service;
 

@@ -1,8 +1,8 @@
 package org.dyndns.phpusr.contactmanager.web;
 
 import org.dyndns.phpusr.contactmanager.entity.Student;
-import org.dyndns.phpusr.contactmanager.service.Constants;
 import org.dyndns.phpusr.contactmanager.service.StudentService;
+import org.dyndns.phpusr.contactmanager.util.Constants;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.validation.BindingResult;

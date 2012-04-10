@@ -13,7 +13,7 @@ import java.util.List;
  *         Time: 20:18
  */
 
-@Repository
+@Repository("studentDaoDefault")
 public class StudentDaoImpl implements StudentDao {
 
     @Autowired

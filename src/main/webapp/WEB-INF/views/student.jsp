@@ -1,4 +1,4 @@
-<%@ page import="org.dyndns.phpusr.contactmanager.service.Constants" %>
+<%@ page import="org.dyndns.phpusr.contactmanager.util.Constants" %>
 <%@ page language="java" contentType="text/html; charset=utf8"
          pageEncoding="utf8"%>
 <%@taglib uri="http://www.springframework.org/tags" prefix="spring"%>

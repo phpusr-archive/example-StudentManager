@@ -3,6 +3,7 @@ package org.dyndns.phpusr.contactmanager.service;
 import org.dyndns.phpusr.contactmanager.dao.StudentDao;
 import org.dyndns.phpusr.contactmanager.entity.Student;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -14,10 +15,11 @@ import java.util.List;
  *         Time: 21:09
  */
 
-@Service
+@Service("studentServiceDefault")
 public class StudentServiceImpl implements StudentService {
 
     @Autowired
+    @Qualifier("StudentTestDao")
     StudentDao dao;
 
     @Transactional
