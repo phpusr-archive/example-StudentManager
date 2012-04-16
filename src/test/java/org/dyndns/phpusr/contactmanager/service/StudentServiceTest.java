@@ -21,7 +21,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 public class StudentServiceTest {
 
     @Autowired
-    @Qualifier("studentServiceDefault")
+    @Qualifier("hello")
     StudentService service;
 
     @Before

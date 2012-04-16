@@ -13,13 +13,15 @@ import java.util.List;
 
 @Service("hello")
 public class StudentServiceTestImpl implements StudentService {
+    public static final String PREFIX = ">>";
 
     public void addStudent(Student student) {
-        //To change body of implemented methods use File | Settings | File Templates.
+        System.out.println(PREFIX + "Adding student: " + student);
     }
 
     public List<Student> getStudents() {
-        return null;  //To change body of implemented methods use File | Settings | File Templates.
+        System.out.println(PREFIX + "Getting students");
+        return null;
     }
 
     public void removeStudent(Student student) {
